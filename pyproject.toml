@@ -216,6 +216,16 @@ manipulation = [
 ]
 
 
+emotion = [
+    # Facial emotion recognition
+    "deepface>=0.0.93",
+    # Audio/prosody analysis
+    "librosa>=0.10.0",
+    # NLP emotion classification (transformer backend)
+    "transformers>=4.30.0",
+    "torch>=2.0.0",
+]
+
 cpu = [
     # CPU inference backends
     "onnxruntime",
